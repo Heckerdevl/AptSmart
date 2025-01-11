@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container::before {
+    content: "";
+    background: url("./image/001.jpg") no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+}
+h2{
+    margin: 50px 0px;
+}
+.box h2{
+    margin-bottom: -40px;
+}
+
+#box {
+    padding: 23px;
+    border-color: transparent;
+    border-radius: 8px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 8px 8px 13px black;
+    margin-top: 145px;
+    backdrop-filter: blur(9px);
+}
+
+h2 {
+    text-align: center;
+    margin: 0px 0px;
+}
+
+label {
+    margin: 0px 130px;
+    color:white;
+}
+
+input {
+    width: 390px;
+    margin-bottom: 30px;
+    height: 23px;
+    background-color: rgb(255, 241, 241);
+    border-radius: 8px;
+    padding: 6px;
+    color: rgb(0, 0, 0);
+}
+
+form {
+    margin: 75px 0px;
+}
+
+#btn {
+    margin-left: 90px;
+    margin-right: 153px;
+    margin-bottom: 30px;
+    /* height: 23px; */
+    background: transparent;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 90px;
+}
+
+input[type='password']:focus {
+    outline: none;
+    -moz-outline: none;
+    -webkit-outline: none;
+}
+a{
+    color: rgb(2, 2, 70);
+    margin:60px;
+}
+#forgot{
+    margin-left: 143px;
+}

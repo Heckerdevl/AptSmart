@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./login.css">
+
+    <title>Login page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="box" class="box">
+            <h2 class="box">Welcome To AptSmart</h2>
+            <form id="myform" onsubmit="return data()" action="/post" method="post">
+                <label for="n1">Enter Your Name</label>
+                <div>
+                    <input id="n1" type="text" placeholder="Username" name="name">
+                </div>
+                <label for="n2">Enter Your Email</label>
+                <div>
+                    <input id="n2" type="text" placeholder="Email" name="Email">
+                </div>
+                <label for="n3">Enter Your Password</label>
+                <div>
+                    <input id="n3" type="password" placeholder="Password" name="Password">
+                </div>
+                <a>
+                    <input id="btn" class="btn" type="submit" value="Submit your data">
+                    
+                    <!-- <button id="btn" class="btn" >Submit</button> -->
+                </a>
+                <a id="forgot" href="">Forget Password?</a>
+            </form>
+        </div>
+    </div>
+    <script src="./login.js"></script>
+    
+</body>
+
+</html>

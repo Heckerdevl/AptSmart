@@ -1,0 +1,104 @@
+*{
+    text-decoration: none;
+}
+.navbar{
+    /* background: rgb(84, 85, 82);  */
+    font-family: calibri; 
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.logo a{
+    padding-left: 10px;
+    font-size: 30px; 
+    font-weight: bold; 
+    color: rgb(0, 0, 0);
+    /* margin-top: -10px; */
+
+}
+ul{
+    margin-left: 900px;
+}
+li{
+    list-style: none; 
+    display: inline-block;
+    margin-top: 15px;
+}
+li a{
+    color: rgb(0, 0, 0); 
+    font-size: 18px; 
+    font-weight: bold;
+    margin-right: 35px;
+}
+button{
+    background: none;
+    margin-left: 10px; 
+    border-radius: 10px; 
+    /* padding: 10px;  */
+    /* width: 90px; */
+}
+button a{
+    color: white; 
+    font-weight: bold; 
+    font-size: 15px;
+}
+.date{
+    background-color: #121212;
+    color: white;
+    display: flex;
+    /* margin: auto; */
+    /* align-items: center; */
+    justify-content: center;
+}
+.registration{
+    background-color: rgb(153, 155, 149);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registration h2{
+    
+    font-size: 20px;
+    margin-left: 80px;
+}
+.desk h1{
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 200px;
+}
+.box{
+    display: flex;
+    flex-direction:row;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+}
+.box_inside{
+    color: rgb(0, 0, 139);
+    width: 310px;
+    height: 350px;
+    border: 2px solid black;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 230px;
+    margin-top: 30px;
+    /* border-color: black; */
+    
+}
+.box_inside a{
+    text-decoration: none;
+}
+#first:hover{
+    box-shadow: 0px 0px 10px 5px  #7b7b7b;
+}
+#second:hover{
+    box-shadow: 0px 0px 10px 5px  #7b7b7b;
+}
